@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    height: 100%;
+}
+.left-container {
+    width: 20%; /* 左边占页面的1/5 */
+    background-color: #f0f0f0; /* 左边部分背景色 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-container {
+    flex: 1;
+    padding: 20px;
+}
+h1 {
+    font-size: 24px; /* 调整字体大小 */
+    color: black; /* 文字颜色 */
+    text-decoration: none; /* 去掉下划线 */
+    text-align: center;
+    cursor: pointer;
+}
